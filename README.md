@@ -73,8 +73,8 @@ What does the resulting kicad project look like? Directory-structure wise?
 ## Project 2
 Reserved for additional example
 
-## circuit-json-to-kicad
-
+## circuit-json-to-kicad: Library Conversion API
+Example Usage (CLI-side)
 
 ```tsx
 import { KicadLibraryConverter } from "circuit-json-to-kicad"

@@ -46,6 +46,13 @@ export { SpacebarKey } from "lib/components/SpacebarKey"
 export { NormalKey } from "lib/components/NormalKey"
 ```
 
+```js
+// tscircuit.config.json
+{
+  "kicadFootprintLibraryEntrypoint": "./lib/my-footprint-library.ts"
+}
+```
+
 #### Output
 
 What does the resulting kicad project look like? Directory-structure wise?

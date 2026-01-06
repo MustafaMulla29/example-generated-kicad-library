@@ -4,6 +4,18 @@
 - Directory with kicad project, automatically generated
 - ./generate.sh
 
+## Illustraitve tscircuit project structure
+
+
+### Project 1
+
+- package.json
+- lib
+- lib/index.ts
+- 
+
+## Project 2
+
 ## References
 
 - https://github.com/espressif/kicad-libraries/tree/main

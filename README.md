@@ -4,10 +4,12 @@
 - Directory with kicad project, automatically generated
 - ./generate.sh
 
-## Illustraitve tscircuit project structure
+## Illustrative tscircuit project structure
 
 
 ### Project 1 (Example Keyboard Project)
+
+#### Input
 
 - package.json
 - lib/index.ts
@@ -28,6 +30,10 @@
 - tscircuit.config.json
 - tsconfig.json
 - FullKeyboard.tsx
+
+#### Output
+
+What does the resulting kicad project look like? Directory-structure wise?
 
 ## Project 2
 

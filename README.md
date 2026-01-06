@@ -53,9 +53,14 @@ export const notExportedToKicadFn = () => 10
 ```js
 // tscircuit.config.json
 {
-  "kicadFootprintLibraryEntrypoint": "./lib/my-footprint-library.ts"
+  "kicadFootprintLibraryEntrypoint": "./lib/my-footprint-library.ts",
+  "kicadFootprintLibraryOutputDirPath" : "./kicad-lib"
 }
 ```
+
+> Implementation note: kicad-lib should be marked as ignored inside `.gitignore` for most users, we won't
+> do this automatically because some users may commit artifacts, but we may ask during `tsci init` if the
+> user is explicitly creating a kicad library
 
 #### Output
 
@@ -117,9 +122,10 @@ const output = convert.getOutput()
 
 I want just a library, I don't need a kicad_pro file etc. It's not a kicad project, it's a library. No extra things.
 
-### Making a library down to a project
+### Making a library FOR a project
 
-... TBD
+I want a kicad project, but to make it properly it should also have a `footprints` directory and all the stuff generated
+by a library
 
 ## References
 

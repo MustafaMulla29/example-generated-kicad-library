@@ -82,6 +82,8 @@ What does the resulting kicad project look like? Directory-structure wise?
 │     └─ KeyHotSwapSwitch.step
 ```
 
+> builtins _maybe_ should be configurable, definitely dont generate if unused
+
 ## Project 2
 Reserved for additional example
 

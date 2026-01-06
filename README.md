@@ -10,9 +10,13 @@
 ### Project 1
 
 - package.json
-- lib
+- lib/assets/...glb
 - lib/index.ts
-- 
+- lib/src/global.ts
+- lib/my-footprint-library.ts
+- lib/generated
+- tsconfig.json
+- MainCircuitExample.tsx
 
 ## Project 2
 

@@ -7,10 +7,9 @@
 ## Illustraitve tscircuit project structure
 
 
-### Project 1
+### Project 1 (Example Keyboard Project)
 
 - package.json
-- lib/assets/...glb
 - lib/index.ts
 - lib/src/global.ts
 - lib/my-footprint-library.ts
@@ -24,8 +23,11 @@
 - lib/components/NormalKey.tsx
 - lib/components/SpacebarKey.tsx
 - lib/components/AnyKey.tsx
+- lib/utils/compute-bounds-of-keyboard.ts
+- scripts/compute-keyboard-dimensions.ts
+- tscircuit.config.json
 - tsconfig.json
-- MainCircuitExample.tsx
+- FullKeyboard.tsx
 
 ## Project 2
 

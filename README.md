@@ -123,9 +123,12 @@ const convert = new KicadLibraryConverter({
     "lib/index.ts",
     "lib/components/SpacebarKey.tsx",
   ],
-  buildFilePath: async (filePath: string) => {
+  buildFileToCircuitJson: async (filePath: string) => {
     return await generateCircuitJson(filePath)
   },
+  getImportsFromTsxFile: async (filePath: string) => {
+    return Object.keys(await import(filePath))
+  }
 })
 
 const output = convert.getOutput()
